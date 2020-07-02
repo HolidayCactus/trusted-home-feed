@@ -3,13 +3,13 @@ This feed adds Irdeto Trusted-Home Unum agent to OpenWrt builds.
 
 
 Overview    
-Add this feed to an OpenWrt build's *feeds.conf.default* file:
+Add this feed to an OpenWrt build's `feeds.conf.default` file:
 
 ```
 # Trusted-Home feed
 src-git trusted-home https://github.com/HolidayCactus/trusted-home-feed.git
 ```
-Update the local copy of the Trusted-Home feed with the OpenWrt feeds script:
+Update the local copy of the Trusted-Home feed with the OpenWrt `feeds` script:
 
 ```
 ./scripts/feeds update trusted-home
