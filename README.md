@@ -15,6 +15,6 @@ Update the local copy of the Trusted-Home feed with the OpenWrt feeds script:
 ./scripts/feeds update trusted-home
 ./scripts/feeds install trusted-home
 ```
-Enable the Unum agent in *make menuconfig* under *Network*.
+Enable the Unum agent in `make menuconfig` under *Network*.
 
-Build an Unum agent ipk with *make package/unum/compile*, then use *scp* to copy the ipk onto your router and use *opkg install* to install it.
+Build an Unum agent ipk with `make package/unum/compile`, then use `scp` to copy the ipk onto your router and use `opkg install` to install it.
