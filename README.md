@@ -12,8 +12,8 @@ src-git trusted_home https://github.com/HolidayCactus/trusted-home-feed.git
 Update the local copy of the Trusted-Home feed with the OpenWrt `feeds` script:
 
 ```
-./scripts/feeds update trusted_home
-./scripts/feeds install trusted_home
+./scripts/feeds update trustedhome
+./scripts/feeds install trustedhome
 ```
 Enable the Unum agent in `make menuconfig` under *Network*.
 
